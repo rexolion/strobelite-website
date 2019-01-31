@@ -1,0 +1,168 @@
+.Header {
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+.Header-container {
+    margin: 0 auto;
+    padding: 0 10px 0 30px;
+}
+.Logo {
+    float: left;
+    padding: 0 50px 0 0;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: 300;
+
+
+}
+.Header-bullet {
+    float: left;
+    height: 90px;
+    line-height: 90px;
+
+
+
+}
+.Header-bullet-item:hover {
+    color: #000000;
+    font-weight: 400;
+
+}
+.Header-bullet-item {
+    color: #424242;
+    font-weight: 300;
+    padding: 0 30px 0 0 ;
+}
+.Heading_mdBord {
+    border-left: solid 5px;
+    padding-left: 20px;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 30px 0 15px 0;
+}
+
+.Heading_md {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 30px 0 15px 0;
+}
+.Para_md {
+    color: #424242;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    width: 30vw;
+}
+.Main {
+    display: flex;
+
+}
+.Main-image img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(70%);
+}
+.Main-image {
+    height: 80vh;
+    width: 30%;
+}
+.Main-text-container {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Para-container {
+    height: 30vh;
+    width: 30vw;
+}
+.Work {
+    display: flex;
+
+}
+.Work-image img {
+    width: 100%;
+    height: 100%;
+}
+.Work-image {
+    background-color: #000000;
+    width: 50%;
+    height: 50vh;
+}
+.Work-text-container {
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Block {
+    height: 50vh;
+    width: 100%;
+    background-color: #000000;
+}
+.Para-button {
+    margin-top: 20px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    height: 2.2em;
+    width: 8em;
+    background-color: transparent;
+    border-image-slice: 1;
+    font-size: calc(24px + (24 - 24) * ((100vw - 300px) / (1600 - 300)));
+    color: #000000;
+    transition: .5s;
+    border-radius: 15px;
+    font-weight: 400;
+}
+.Para-button:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+}
+.Footer {
+    height: 70px;
+    width: 100%;
+}
+
+.Footer-bullet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Footer-bullet-item {
+    width: 40px;
+    height: 40px;
+}
+.Header_lg {
+    color: #ffffff;
+    font-size: 50px;
+}
+.Icon-fb {
+    background-image: url(assets/facebook.svg);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Block-button:hover {
+    color: #000000;
+    background-color: #cccccc;
+}
+.Block-button {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
